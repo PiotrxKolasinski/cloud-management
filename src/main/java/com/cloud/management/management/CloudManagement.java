@@ -106,7 +106,7 @@ public class CloudManagement {
             case AVAILABILITY_DECREASING:
                 return new String[]{String.valueOf(dataInput.getNodeRemoteWeakAvailability()), String.valueOf(dataInput.getNodeRemoteStrongAvailability())};
             case AVAILABILITY_INCREASING:
-                return new String[]{String.valueOf(dataInput.getNodeRemoteWeakAvailability()), String.valueOf(dataInput.getNodeRemoteStrongAvailability())};
+                return new String[]{String.valueOf(dataInput.getNodeRemoteStrongAvailability()), String.valueOf(dataInput.getNodeRemoteWeakAvailability())};
             default:
                 return new String[]{""};
         }
