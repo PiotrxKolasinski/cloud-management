@@ -1,0 +1,11 @@
+lp.,Availability - weak nodes,Availability - strong nodes,Raft (static) success full available [%],Raft (static) average access time [s],Raft(dynamic) success full available [%],Raft(dynamic) average access time [s]
+1,0.2,0.7,51.76,215,91.01,219
+2,0.21,0.71,53.45,218,91.7,222
+3,0.22,0.72,55.17,219,92.32,223
+4,0.23,0.73,55.6,220,92.99,222
+5,0.24,0.74,57.32,219,93.48,222
+6,0.25,0.75,58.41,222,93.87,223
+7,0.26,0.76,59.6,219,94.34,219
+8,0.27,0.77,61.24,221,94.63,221
+9,0.28,0.78,63.0,222,95.3,221
+10,0.29,0.79,64.1,220,95.71,220

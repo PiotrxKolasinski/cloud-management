@@ -1,0 +1,11 @@
+lp.,Availability - weak nodes,Availability - strong nodes,Multi-master (static) success full available [%],Multi-master (static) average access time [s],Multi-master(dynamic) success full available [%],Multi-master(dynamic) average access time [s]
+1,0.2,0.7,97.72,83,97.75,83
+2,0.21,0.71,98.14,83,97.98,83
+3,0.22,0.72,98.21,83,98.18,83
+4,0.23,0.73,98.46,83,98.48,83
+5,0.24,0.74,98.62,83,98.6,83
+6,0.25,0.75,98.66,83,98.8,83
+7,0.26,0.76,98.78,82,98.73,83
+8,0.27,0.77,98.91,83,99.0,82
+9,0.28,0.78,99.11,82,99.11,82
+10,0.29,0.79,99.25,82,99.15,82

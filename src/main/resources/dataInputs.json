@@ -1,0 +1,122 @@
+[
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.7",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.2",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.71",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.21",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.72",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.22",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.73",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.23",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.74",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.24",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.75",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.25",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.76",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.26",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.77",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.27",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.78",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.28",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  },
+  {
+    "nodeRemoteStrongQuantity": "100",
+    "nodeRemoteStrongAvailability": "0.79",
+    "nodeRemoteStrongCapacity": "10",
+    "nodeRemoteStrongComputingPower": "80",
+    "nodeRemoteWeakQuantity": "100",
+    "nodeRemoteWeakAvailability": "0.29",
+    "nodeRemoteWeakCapacity": "10",
+    "nodeRemoteWeakComputingPower": "200",
+    "numberOfReplicas": "3",
+    "requestStreamSize": "10000"
+  }
+]
