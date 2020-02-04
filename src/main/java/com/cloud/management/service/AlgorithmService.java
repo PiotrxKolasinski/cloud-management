@@ -10,11 +10,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public abstract class CloudManagementService {
-    private static Logger logger = LoggerFactory.getLogger(CloudManagementService.class);
-    protected final List<NodeRequestLog> nodeRequestLogs = new ArrayList<>();
+public abstract class AlgorithmService {
+    private static Logger logger = LoggerFactory.getLogger(AlgorithmService.class);
+    protected List<NodeRequestLog> nodeRequestLogs;
 
     public void manage(AlgorithmInput input) {
+        nodeRequestLogs = new ArrayList<>();
         Random random = new Random();
         HeartBeatDynamicService heartBeatService = new HeartBeatDynamicService();
         manageForEachRequestStreamSize(input, random, heartBeatService);

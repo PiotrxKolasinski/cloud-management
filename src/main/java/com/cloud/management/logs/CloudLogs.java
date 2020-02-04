@@ -28,6 +28,10 @@ public class CloudLogs {
         temporarySuccessFullAccess += ((double) sumSuccess / nodeRequestLogs.size()) * 100;
         temporaryAverageAccessTime += sumOperationTime / sumSuccess;
 
+        createSummaryIfLastIteration(testedParameterValues, isLastIteration);
+    }
+
+    private void createSummaryIfLastIteration(String[] testedParameterValues, boolean isLastIteration) {
         if (isLastIteration || NUMBER_OF_ALGORITHM_PRECISION == 1) {
             fullSummary.getSummaries().add(
                     new Summary(
@@ -38,34 +42,6 @@ public class CloudLogs {
             temporarySuccessFullAccess = 0;
             temporaryAverageAccessTime = 0;
         }
-    }
-
-
-    public void printFullSummary() {
-        DecimalFormat f = new DecimalFormat("##.00");
-        System.out.println("\n" + fullSummary.getType());
-        fullSummary.getSummaries().forEach(item -> {
-            System.out.println("*********************************");
-            System.out.println("Succesfull access - " + f.format(item.getSuccessFullAccess()) + "%");
-            System.out.println("Average access time - " + item.getAverageAccessTime() + "");
-        });
-
-        double[] values = fullSummary.getSummaries().stream().mapToDouble(item -> item.getSuccessFullAccess()).toArray();
-        double minSuccessFullAccess = Arrays.stream(values).min().getAsDouble();
-        double maxSuccessFullAccess = Arrays.stream(values).max().getAsDouble();
-        System.out.println("*********************************");
-        System.out.println("Succesfull access MIN - " + f.format(minSuccessFullAccess) + "%");
-        System.out.println("Succesfull access MAX - " + f.format(maxSuccessFullAccess) + "%");
-        double res = maxSuccessFullAccess - minSuccessFullAccess;
-        System.out.println("Tolerance: " + (res < 1 ? '0' + f.format(res) : f.format(res)) + "%");
-
-        int[] averageValues = fullSummary.getSummaries().stream().mapToInt(item -> item.getAverageAccessTime()).toArray();
-        int minAverageValues = Arrays.stream(averageValues).min().getAsInt();
-        int maxAverageValues = Arrays.stream(averageValues).max().getAsInt();
-        System.out.println("*********************************");
-        System.out.println("Average access time MIN- " + minAverageValues + "");
-        System.out.println("Average access time MIX- " + maxAverageValues + "");
-        System.out.println("Tolerance: " + (maxAverageValues - minAverageValues) + "");
     }
 
     public FullSummary getFullSummary() {

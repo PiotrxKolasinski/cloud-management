@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class RaftCloudManagementService extends CloudManagementService {
+public class RaftAlgorithmService extends AlgorithmService {
 
     @Override
     protected void manageSpecificRequest(AlgorithmInput input, Integer requestDataID, int nodeId) {

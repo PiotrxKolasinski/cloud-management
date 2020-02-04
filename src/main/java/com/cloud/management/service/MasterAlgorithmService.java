@@ -4,7 +4,7 @@ import com.cloud.management.logs.NodeRequestLog;
 import com.cloud.management.models.AlgorithmInput;
 import com.cloud.management.models.CloudData;
 
-public class MasterCloudManagementService extends CloudManagementService {
+public class MasterAlgorithmService extends AlgorithmService {
 
     @Override
     protected void manageSpecificRequest(AlgorithmInput input, Integer requestDataID, int nodeId) {
